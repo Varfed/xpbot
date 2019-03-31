@@ -1,4 +1,4 @@
-const token = "";
+const token = "NTU1NzY4MDUyMDcxOTIzNzUy.XJ-ukA.YkrzW24aCI3osQUWSoM8d8GBf-Q";
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone : true});
