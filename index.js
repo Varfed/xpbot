@@ -129,7 +129,7 @@ console.log(`Уровень ${xp[message.author.id].level}`)
     console.log(`${member.id} joined the server.`);
 
     let welcomechannel = member.guild.channels.find(`name`, "welcome");
-    welcomechannel.send(`Смотрите все ${member} присоединился к нашему клану. Что-бы попасть в игровой клан , напиши про себя в apply-here.`);
+    welcomechannel.send(`Смотрите все ${member} присоединился к нашему клану. Что-бы попасть в игровой клан , напиши про себя в apply-here. А если что-то не понятно, напиши ***?hm***`);
 
   });
   bot.on("guildMemberRemove", async member => {
